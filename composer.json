@@ -1,0 +1,33 @@
+{
+  "name": "iamnotstatic/laravel-api-auth",
+  "description": "A Laravel Package for easy API authentication setup with passport",
+  "keywords": [
+    "laravel",
+    "passport",
+    "oauth"
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "laravel/passport": "^8.4"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "iamnotstatic",
+      "email": "staticdev20046@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Iamnotstatic\\LaravelAPIAuth\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Iamnotstatic\\LaravelAPIAuth\\LaravelAPIAuthServiceProvider"
+      ]
+    }
+  }
+}
